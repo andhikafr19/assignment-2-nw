@@ -27,27 +27,27 @@
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
               <li class="nav-item">
-                <a href="#" class="nav-link active" aria-current="page">
+                <a href="#kinerjaProduksi" class="nav-link active" aria-current="page">
                   <i class="fa fa-file me-2"></i>
                   Kinerja Produksi
                 </a>
               </li>
-              <li>
-                <a href="#" class="nav-link text-white">
+              <li class="nav-item">
+                <a href="#kinerjaOperasi" class="nav-link text-white">
                   <i class="fa fa-file me-2"></i>
                   Kinerja Operasi
                 </a>
               </li>
-              <li>
-                <a href="#" class="nav-link text-white">
+              <li class="nav-item">
+                <a href="#hidrologi" class="nav-link text-white">
                   <i class="fa fa-water me-2"></i>
                   Kondisi Hidrologi
                 </a>
               </li>
-              <li>
-                <a href="#" class="nav-link text-white">
-                  <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"/></svg>
-                  Products
+              <li class="nav-item">
+                <a href="#peliharaSungai" class="nav-link text-white">
+                  <i class="fa fa-water me-2"></i>
+                  Pemeliharaan Sungai
                 </a>
               </li>
             </ul>
@@ -59,11 +59,10 @@
          <!-- Main Content -->
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
     
-          <h2>Section title</h2>
           <!-- Kinerja Produksi Section -->
-          <div class="row row-cols-1 row-cols-md-1 g-4">
+          <div class="row row-cols-1 row-cols-md-1 g-4 mt-3" id="kinerjaProduksi">
 
-            <div class="col shadow-sm border-top border-3 border-primary bg-white">
+            <div class="col shadow-sm border-top border-5 border-primary bg-white">
               <span class="ms-2 mt-2"> 
                 <i class="fa fa-file me-2"></i>Kinerja Produksi
               </span>
@@ -73,6 +72,9 @@
                 <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-3 g-4">
                   <div class="col mb-3">
                     <div class="card bg-secondary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
                       <div class="card-body">
                         <h5 class="card-title">1200 MWh</h5>
                       </div>
@@ -98,6 +100,9 @@
                   </div>
                   <div class="col mb-3">
                     <div class="card bg-warning-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
                       <div class="card-body">
                         <h5 class="card-title">1234 MWh</h5>
                       </div>
@@ -110,25 +115,25 @@
               </div>
 
               <div class="monthly-yearly-produksi mt-3 shadow-sm border-top border-3 border-primary">
-                <h4 class="text-center mt-3">Monthly and Yearly</h4>
+                <h4 class="text-center mt-3">Total</h4>
                 <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-2 g-4">
                   <div class="col mb-3">
-                    <div class="card bg-secondary-subtle">
+                    <div class="card bg-success text-white">  
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">103634 MWh</h5>
                       </div>
-                      <div class="card-footer text-bg-secondary">
-                        Unit 1
+                      <div class="card-footer bg-success">
+                        Monthly
                       </div>
                     </div>
                   </div>
                   <div class="col mb-3">
-                    <div class="card bg-primary-subtle">
+                    <div class="card bg-success-subtle">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">11399974 MWh</h5>
                       </div>
-                      <div class="card-footer text-bg-primary">
-                        Unit 2
+                      <div class="card-footer text-bg-success-subtle">
+                        Yearly
                       </div>
                     </div>
                   </div>
@@ -139,19 +144,25 @@
                 <h4 class="text-center mt-3">Pencapaian</h4>
                 <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-3 g-4">
                   <div class="col mb-3">
-                    <div class="card bg-secondary-subtle">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <div class="card bg-primary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
                       </div>
-                      <div class="card-footer text-bg-secondary">
+                      <div class="card-body">
+                        <h5 class="card-title">70%</h5>
+                      </div>
+                      <div class="card-footer text-bg-primary">
                         Daily
                       </div>
                     </div>
                   </div>
                   <div class="col mb-3">
                     <div class="card bg-primary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">70%</h5>
                       </div>
                       <div class="card-footer text-bg-primary">
                         Monthly
@@ -160,8 +171,11 @@
                   </div>
                   <div class="col mb-3">
                     <div class="card bg-primary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">73%</h5>
                       </div>
                       <div class="card-footer text-bg-primary">
                         Yearly
@@ -177,56 +191,23 @@
           <!-- Kinerja Produksi Section -->
 
           <!-- Kinerja Operasi Section -->
-          <div class="row row-cols-1 row-cols-md-1 g-4 mt-5">
+          <div class="row row-cols-1 row-cols-md-1 g-4 mt-5" id="kinerjaOperasi">
 
-            <div class="col shadow-sm border-top border-3 border-primary bg-white">
+            <div class="col shadow-sm border-top border-5 border-warning bg-white">
               <span class="ms-2 mt-2">
                 <i class="fa fa-file me-2"></i>Kinerja Operasi
               </span>
               
-              <div class="daily-produksi shadow-sm border-top border-3 border-primary">
+              <div class="daily-produksi shadow-sm border-top border-3 border-warning">
                 <h4 class="text-center mt-3">Daily</h4>
-                <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-3 g-4">
-                  <div class="col mb-3">
-                    <div class="card bg-secondary-subtle">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                      </div>
-                      <div class="card-footer text-bg-secondary">
-                        Unit 1
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col mb-3">
-                    <div class="card bg-primary-subtle">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                      </div>
-                      <div class="card-footer text-bg-primary">
-                        Unit 2
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col mb-3">
-                    <div class="card bg-warning-subtle">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                      </div>
-                      <div class="card-footer text-bg-warning">
-                        Unit 3
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="monthly-yearly-produksi mt-3 shadow-sm border-top border-3 border-primary">
-                <h4 class="text-center mt-3">Monthly and Yearly</h4>
                 <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-2 g-4">
                   <div class="col mb-3">
                     <div class="card bg-secondary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">1</h5>
                       </div>
                       <div class="card-footer text-bg-secondary">
                         Unit 1
@@ -235,8 +216,11 @@
                   </div>
                   <div class="col mb-3">
                     <div class="card bg-primary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">2</h5>
                       </div>
                       <div class="card-footer text-bg-primary">
                         Unit 2
@@ -246,35 +230,70 @@
                 </div>
               </div>
 
-              <div class="pencapaian-produksi mt-3 shadow-sm border-top border-3 border-primary">
-                <h4 class="text-center mt-3">Total</h4>
-                <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-3 g-4">
+              <div class="monthly-yearly-produksi mt-3 shadow-sm border-top border-3 border-warning">
+                <h4 class="text-center mt-3">Total Average</h4>
+                <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-2 g-4">
                   <div class="col mb-3">
-                    <div class="card bg-secondary-subtle">
+                    <div class="card bg-warning-subtle">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">75%</h5>
                       </div>
-                      <div class="card-footer text-bg-secondary">
-                        Daily
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col mb-3">
-                    <div class="card bg-primary-subtle">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                      </div>
-                      <div class="card-footer text-bg-primary">
+                      <div class="card-footer text-bg-warning-subtle">
                         Monthly
                       </div>
                     </div>
                   </div>
                   <div class="col mb-3">
-                    <div class="card bg-primary-subtle">
+                    <div class="card bg-warning">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">77%</h5>
                       </div>
-                      <div class="card-footer text-bg-primary">
+                      <div class="card-footer text-bg-warning">
+                        Yearly
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pencapaian-produksi mt-3 shadow-sm border-top border-3 border-warning">
+                <h4 class="text-center mt-3">Total</h4>
+                <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-3 g-4">
+                  <div class="col mb-3">
+                    <div class="card bg-warning-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">3</h5>
+                      </div>
+                      <div class="card-footer text-bg-warning">
+                        Daily
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="card bg-warning-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">70%</h5>
+                      </div>
+                      <div class="card-footer text-bg-warning">
+                        Monthly
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="card bg-warning-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">75%</h5>
+                      </div>
+                      <div class="card-footer text-bg-warning">
                         Yearly
                       </div>
                     </div>
@@ -287,20 +306,23 @@
           <!-- Kinerja Operasi Section -->
 
           <!-- Kondisi Hidrologi (Discharge & Water Level) -->
-          <div class="row row-cols-1 row-cols-md-1 g-4 mt-5">
+          <div class="row row-cols-1 row-cols-md-1 g-4 mt-5" id="hidrologi">
 
-            <div class="col shadow-sm border-top border-3 border-primary bg-white">
+            <div class="col shadow-sm border-top border-5 border-success bg-white">
               <span class="ms-2 mt-2">
                 <i class="fa fa-water me-2"></i>Kondisi Hidrologi (Discharge)
               </span>
               
-              <div class="daily-hidrologi shadow-sm border-top border-3 border-primary">
+              <div class="daily-hidrologi shadow-sm border-top border-3 border-success">
                 <h4 class="text-center mt-3">Daily</h4>
                 <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-3 g-4">
                   <div class="col mb-3">
                     <div class="card bg-secondary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">55,00 m3/s</h5>
                       </div>
                       <div class="card-footer text-bg-secondary">
                         Rata-rata Unit 1
@@ -309,8 +331,11 @@
                   </div>
                   <div class="col mb-3">
                     <div class="card bg-primary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">56,00 m3/s</h5>
                       </div>
                       <div class="card-footer text-bg-primary">
                         Rata-rata Unit 2
@@ -318,11 +343,14 @@
                     </div>
                   </div>
                   <div class="col mb-3">
-                    <div class="card bg-warning-subtle">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <div class="card bg-success-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
                       </div>
-                      <div class="card-footer text-bg-warning">
+                      <div class="card-body">
+                        <h5 class="card-title">55,5 m3/s</h5>
+                      </div>
+                      <div class="card-footer text-bg-success">
                         Total Rata-rata
                       </div>
                     </div>
@@ -330,13 +358,16 @@
                 </div>
               </div>
 
-              <div class="monthly-hidrologi mt-3 shadow-sm border-top border-3 border-primary">
+              <div class="monthly-hidrologi mt-3 shadow-sm border-top border-3 border-success">
                 <h4 class="text-center mt-3">Monthly</h4>
                 <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-3 g-4">
                   <div class="col mb-3">
                     <div class="card bg-secondary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">45,46 m3/s</h5>
                       </div>
                       <div class="card-footer text-bg-secondary">
                         Rata-rata Unit 1
@@ -345,8 +376,11 @@
                   </div>
                   <div class="col mb-3">
                     <div class="card bg-primary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">51,32 m3/s</h5>
                       </div>
                       <div class="card-footer text-bg-primary">
                         Rata-rata Unit 2
@@ -354,11 +388,14 @@
                     </div>
                   </div>
                   <div class="col mb-3">
-                    <div class="card bg-warning-subtle">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <div class="card bg-success-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
                       </div>
-                      <div class="card-footer text-bg-warning">
+                      <div class="card-body">
+                        <h5 class="card-title">48,39 m3/s</h5>
+                      </div>
+                      <div class="card-footer text-bg-success">
                         Total Rata-rata
                       </div>
                     </div>
@@ -366,13 +403,16 @@
                 </div>
               </div>
 
-              <div class="yearly-hidrologi mt-3 shadow-sm border-top border-3 border-primary">
+              <div class="yearly-hidrologi mt-3 shadow-sm border-top border-3 border-success">
                 <h4 class="text-center mt-3">Yearly</h4>
                 <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-3 g-4">
                   <div class="col mb-3">
                     <div class="card bg-secondary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">58,76 m3/s</h5>
                       </div>
                       <div class="card-footer text-bg-secondary">
                         Rata-rata Unit 1
@@ -381,8 +421,11 @@
                   </div>
                   <div class="col mb-3">
                     <div class="card bg-primary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">60,85 m3/s</h5>
                       </div>
                       <div class="card-footer text-bg-primary">
                         Rata-rata Unit 2
@@ -390,11 +433,14 @@
                     </div>
                   </div>
                   <div class="col mb-3">
-                    <div class="card bg-warning-subtle">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <div class="card bg-success-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
                       </div>
-                      <div class="card-footer text-bg-warning">
+                      <div class="card-body">
+                        <h5 class="card-title">59,805 m3/s</h5>
+                      </div>
+                      <div class="card-footer text-bg-success">
                         Total Rata-rata
                       </div>
                     </div>
@@ -404,40 +450,49 @@
 
             </div>
 
-            <div class="col shadow-sm border-top border-3 border-primary bg-white">
+            <div class="col shadow-sm border-top border-5 border-success bg-white">
               <span class="ms-2 mt-2">
                 <i class="fa fa-water me-2"></i>Kondisi Hidrologi (Water Level)
               </span>
               
-              <div class="daily-hidrologi shadow-sm border-top border-3 border-primary">
+              <div class="daily-hidrologi shadow-sm border-top border-3 border-success">
                 <h4 class="text-center mt-3">Level</h4>
                 <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-3 g-4">
                   <div class="col mb-3">
-                    <div class="card bg-secondary-subtle">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <div class="card bg-success-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
                       </div>
-                      <div class="card-footer text-bg-secondary">
+                      <div class="card-body">
+                        <h5 class="card-title">903,50 m</h5>
+                      </div>
+                      <div class="card-footer text-bg-success">
                         Daily
                       </div>
                     </div>
                   </div>
                   <div class="col mb-3">
-                    <div class="card bg-primary-subtle">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <div class="card bg-success-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
                       </div>
-                      <div class="card-footer text-bg-primary">
+                      <div class="card-body">
+                        <h5 class="card-title">905,43 m</h5>
+                      </div>
+                      <div class="card-footer text-bg-success">
                         Monthly
                       </div>
                     </div>
                   </div>
                   <div class="col mb-3">
-                    <div class="card bg-warning-subtle">
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
+                    <div class="card bg-success-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
                       </div>
-                      <div class="card-footer text-bg-warning">
+                      <div class="card-body">
+                        <h5 class="card-title">903,9 m</h5>
+                      </div>
+                      <div class="card-footer text-bg-success">
                         Yearly
                       </div>
                     </div>
@@ -448,8 +503,299 @@
           </div>
           <!-- Kondisi Hidrologi (Discharge & Water Level) -->
 
+          <!-- Pemeliharaan Sungai -->
+          <div class="row row-cols-1 row-cols-md-1 g-4 mt-5" id="peliharaSungai">
 
+            <div class="col shadow-sm border-top border-5 border-black bg-white">
+              <span class="ms-2 mt-2">
+                <i class="fa fa-water me-2"></i>Pemeliharaan Sungai
+              </span>
+              
+              <div class="pelihara-sungai shadow-sm border-top border-3 border-black">
+                <h4 class="text-center mt-3">Plastik</h4>
+                <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-2 g-4">
+                  <div class="col mb-3">
+                    <div class="card bg-secondary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <div class="row row-cols-2 justify-content-center">
+                          <div class="col volume border border-1 border-secondary rounded mx-1">
+                            <h5>Volume (m3)</h5>
+                            <p>2</p>
+                          </div>
+                          <div class="col pencapaian border border-1 border-secondary rounded mx-1">
+                            <h5>Pencapaian (%)</h5>
+                            <p>76</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-bg-secondary">
+                        Trashboom 1
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="card bg-secondary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <div class="row row-cols-2 justify-content-center">
+                          <div class="col volume border border-1 border-secondary rounded mx-1">
+                            <h5>Volume (m3)</h5>
+                            <p>16</p>
+                          </div>
+                          <div class="col pencapaian border border-1 border-secondary rounded mx-1">
+                            <h5>Pencapaian (%)</h5>
+                            <p>90</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-bg-secondary">
+                        Trashboom 2
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="card bg-secondary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <div class="row row-cols-2 justify-content-center">
+                          <div class="col volume border border-1 border-secondary rounded mx-1">
+                            <h5>Volume (m3)</h5>
+                            <p>16</p>
+                          </div>
+                          <div class="col pencapaian border border-1 border-secondary rounded mx-1">
+                            <h5>Pencapaian (%)</h5>
+                            <p>90</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-bg-secondary">
+                        Intake Rack
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="card bg-secondary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <div class="row row-cols-2 justify-content-center">
+                          <div class="col volume border border-1 border-secondary rounded mx-1">
+                            <h5>Volume (m3)</h5>
+                            <p>16</p>
+                          </div>
+                          <div class="col pencapaian border border-1 border-secondary rounded mx-1">
+                            <h5>Pencapaian (%)</h5>
+                            <p>90</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-bg-secondary">
+                        Spiral Case
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
+              <div class="pelihara-sungai shadow-sm border-top border-3 border-black">
+                <h4 class="text-center mt-3">Eceng Gondok</h4>
+                <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-2 g-4">
+                  <div class="col mb-3">
+                    <div class="card bg-primary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <div class="row row-cols-2 justify-content-center">
+                          <div class="col volume border border-1 border-secondary rounded mx-1">
+                            <h5>Volume (m3)</h5>
+                            <p>2</p>
+                          </div>
+                          <div class="col pencapaian border border-1 border-secondary rounded mx-1">
+                            <h5>Pencapaian (%)</h5>
+                            <p>76</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-bg-secondary">
+                        Trashboom 1
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="card bg-primary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <div class="row row-cols-2 justify-content-center">
+                          <div class="col volume border border-1 border-secondary rounded mx-1">
+                            <h5>Volume (m3)</h5>
+                            <p>16</p>
+                          </div>
+                          <div class="col pencapaian border border-1 border-secondary rounded mx-1">
+                            <h5>Pencapaian (%)</h5>
+                            <p>90</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-bg-secondary">
+                        Trashboom 2
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="card bg-primary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <div class="row row-cols-2 justify-content-center">
+                          <div class="col volume border border-1 border-secondary rounded mx-1">
+                            <h5>Volume (m3)</h5>
+                            <p>16</p>
+                          </div>
+                          <div class="col pencapaian border border-1 border-secondary rounded mx-1">
+                            <h5>Pencapaian (%)</h5>
+                            <p>90</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-bg-secondary">
+                        Intake Rack
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="card bg-primary-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <div class="row row-cols-2 justify-content-center">
+                          <div class="col volume border border-1 border-secondary rounded mx-1">
+                            <h5>Volume (m3)</h5>
+                            <p>16</p>
+                          </div>
+                          <div class="col pencapaian border border-1 border-secondary rounded mx-1">
+                            <h5>Pencapaian (%)</h5>
+                            <p>90</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-bg-secondary">
+                        Spiral Case
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="pelihara-sungai shadow-sm border-top border-3 border-black">
+                <h4 class="text-center mt-3">Lain-Lain</h4>
+                <div class="row text-center m-0 m-auto row-cols-1 row-cols-md-2 g-4">
+                  <div class="col mb-3">
+                    <div class="card bg-warning-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <div class="row row-cols-2 justify-content-center">
+                          <div class="col volume border border-1 border-secondary rounded mx-1">
+                            <h5>Volume (m3)</h5>
+                            <p>2</p>
+                          </div>
+                          <div class="col pencapaian border border-1 border-secondary rounded mx-1">
+                            <h5>Pencapaian (%)</h5>
+                            <p>76</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-bg-secondary">
+                        Trashboom 1
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="card bg-warning-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <div class="row row-cols-2 justify-content-center">
+                          <div class="col volume border border-1 border-secondary rounded mx-1">
+                            <h5>Volume (m3)</h5>
+                            <p>16</p>
+                          </div>
+                          <div class="col pencapaian border border-1 border-secondary rounded mx-1">
+                            <h5>Pencapaian (%)</h5>
+                            <p>90</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-bg-secondary">
+                        Trashboom 2
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="card bg-warning-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <div class="row row-cols-2 justify-content-center">
+                          <div class="col volume border border-1 border-secondary rounded mx-1">
+                            <h5>Volume (m3)</h5>
+                            <p>16</p>
+                          </div>
+                          <div class="col pencapaian border border-1 border-secondary rounded mx-1">
+                            <h5>Pencapaian (%)</h5>
+                            <p>90</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-bg-secondary">
+                        Intake Rack
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col mb-3">
+                    <div class="card bg-warning-subtle">
+                      <div class="card-header py-0">
+                        <i class="fa fa-chart-line"></i>
+                      </div>
+                      <div class="card-body">
+                        <div class="row row-cols-2 justify-content-center">
+                          <div class="col volume border border-1 border-secondary rounded mx-1">
+                            <h5>Volume (m3)</h5>
+                            <p>16</p>
+                          </div>
+                          <div class="col pencapaian border border-1 border-secondary rounded mx-1">
+                            <h5>Pencapaian (%)</h5>
+                            <p>90</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-footer text-bg-secondary">
+                        Spiral Case
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <!-- Pemeliharaan Sungai -->
 
         </main>
         <!-- Main Content -->

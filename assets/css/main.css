@@ -3,6 +3,25 @@ html, body {
   background-color: whitesmoke;
 }
 
+/* Sidebar */
 .sidebar {
-  height: 400vh;
+  height: 650vh;
+}
+
+.nav-item a {
+  font-size: 14px;
+}
+
+/* Pemeliharaan Sungai */
+.volume, .pencapaian {
+  width: 200px;
+}
+
+.volume h5, .pencapaian h5 {
+  font-size: 16px;
+}
+
+.volume p, .pencapaian p {
+  font-size: 20px;
+  font-weight: bolder;
 }
